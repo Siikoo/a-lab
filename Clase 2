@@ -1,0 +1,62 @@
+
+console.log(null == undefined);
+console.log(null === undefined);
+
+let edad = 10
+
+// Al usar else se utiliza para encontrar indefiniciones, no es util para programar apps
+// Se debe usar else if
+
+
+if (edad>10) {
+  console.log("Mayor");
+}
+else if (edad < 10){
+  console.log("Menor");
+}
+
+
+// Ejemplo de correcto uso de else e else if
+// Cuando es una instrucción no es necesario colocar llaves
+
+
+else if (edad===10){
+  console.log("Igual");  
+  console.log("Numero");
+}
+
+else 
+  console.log("indeterminado");
+
+
+
+//* Mis aplicaciones tienen que tener alto rendimiento y baja latencia *
+// "CDN AMAZON WEB SERVICES"
+// "Bootstrap"´
+// Los delievery de contenido tienen una copia que se distribuyen por región
+// No debo dejar todas las cuestiones en la web, mi página debe ser un recopilador de links para optimizar los recursos
+
+
+// Ciclos
+
+  // "El ciclo iteracional mas sencillo es un for, ya que cuenta en un ambito definido, va en una dirección"
+ 
+for (let i=0; i<=3;i++){
+  console.log(i);
+}
+
+
+  // La variable i en le for vive y muere, en cambio en el for sigue viva
+  // Efecto Hoisting
+
+let i=0;
+while(i<=3){
+  console.log(i);
+  i++;
+}
+
+
+
+
+
+
