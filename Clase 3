@@ -1,0 +1,55 @@
+/*
+- Si no asigno un valor se convierte en algo indefinido
+- Una cosa es un undefined, y la otra un objetc.
+- Null es algo vacio dentro de la definición de los objetivos
+- Una igualdad mas precisa se logra con tres "="
+- NaN significa que lo que recibiste no era un número
+- El uso de los nombres de variables puede tener colisiones
+- Cuando se abre una llave es una región critica de memoria, sectores distintos
+- Garbage collector
+- Poner un parametro en una función es hacer un paso por valor, declarar una nueva variable
+- 
+
+
+*/
+
+/*
+
+ EJEMPLO 1
+ 
+var nombre ="Aurelion"
+console.log(nombre)
+cambiarNombre();
+
+function cambiarNombre(){
+  var nombre="Petronilo";
+  console.log("El nombre a cambiar es: " + nombre)
+}
+
+console.log(nombre);
+
+*/
+
+
+var edad = 20
+
+function cambiarEdad(Edad){ 
+  edad =25;
+  console.log("Edad cambiada: "+edad);
+}
+
+console.log(edad);
+cambiarEdad(edad);
+console.log(edad);
+
+
+
+
+
+
+
+
+
+
+
+
